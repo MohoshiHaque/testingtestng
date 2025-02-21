@@ -6,7 +6,7 @@ public class bangla4 {
 	
 	//Priorty Test
 	
-	@Test(priority=4)
+	@Test(priority=4, enabled=false)
 	public void ademo1() {
 		System.out.println("Mohoshi");
 	}
