@@ -4,6 +4,8 @@ import org.testng.annotations.Test;
 
 public class bangla4 {
 	
+	//Priorty Test
+	
 	@Test(priority=4)
 	public void ademo1() {
 		System.out.println("Mohoshi");
@@ -20,5 +22,11 @@ public class bangla4 {
 	public void ddemo1() {
 		System.out.println("Meem");
 	}
+	
+	@Test(dependsOnMethods = {"cdemo1"})
+	public void Linked() {
+		System.out.println("Haider");
+	}
+	
 
 }
