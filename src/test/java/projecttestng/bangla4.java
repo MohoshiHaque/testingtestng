@@ -1,5 +1,8 @@
 package projecttestng;
 
+import static org.testng.Assert.assertTrue;
+
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -22,6 +25,7 @@ public class bangla4 {
 	@Test(priority=2)
 	public void cdemo1() {
 		System.out.println("Rizvi");
+		Assert.assertTrue(false);
 	}
 	@Test(dataProvider="getdata")
 	public void ddemo1(String username, String password) {
