@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+	
+	<parameter name="url" value="www.bugresistance.com" />
+	<test thread-count="5" name="TestPakistan">
+
+	<classes>
+		<class name="projecttestng.bangla4"/>
+	</classes>
+    
+	</test>
+
+</suite> 

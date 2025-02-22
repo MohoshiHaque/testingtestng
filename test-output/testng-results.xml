@@ -1,21 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-21T18:34:37 BDT" name="Default suite" finished-at="2025-02-21T18:34:37 BDT" duration-ms="36">
+  <suite started-at="2025-02-22T13:19:21 BDT" name="Suite" finished-at="2025-02-22T13:19:21 BDT" duration-ms="54">
     <groups>
     </groups>
-    <test started-at="2025-02-21T18:34:37 BDT" name="Default test" finished-at="2025-02-21T18:34:37 BDT" duration-ms="36">
+    <test started-at="2025-02-22T13:19:21 BDT" name="TestPakistan" finished-at="2025-02-22T13:19:21 BDT" duration-ms="54">
       <class name="projecttestng.bangla4">
-        <test-method signature="cdemo1()[pri:2, instance:projecttestng.bangla4@2ef3eef9]" started-at="2025-02-21T18:34:37 BDT" name="cdemo1" finished-at="2025-02-21T18:34:37 BDT" duration-ms="6" status="PASS">
+        <test-method signature="ddemo1(java.lang.String,java.lang.String)[pri:0, instance:projecttestng.bangla4@61df66b6]" started-at="2025-02-22T13:19:21 BDT" name="ddemo1" data-provider="getdata" finished-at="2025-02-22T13:19:21 BDT" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ddemo1 -->
+        <test-method signature="ddemo1(java.lang.String,java.lang.String)[pri:0, instance:projecttestng.bangla4@61df66b6]" started-at="2025-02-22T13:19:21 BDT" name="ddemo1" data-provider="getdata" finished-at="2025-02-22T13:19:21 BDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ddemo1 -->
+        <test-method signature="ddemo1(java.lang.String,java.lang.String)[pri:0, instance:projecttestng.bangla4@61df66b6]" started-at="2025-02-22T13:19:21 BDT" name="ddemo1" data-provider="getdata" finished-at="2025-02-22T13:19:21 BDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ddemo1 -->
+        <test-method signature="cdemo1()[pri:2, instance:projecttestng.bangla4@61df66b6]" started-at="2025-02-22T13:19:21 BDT" name="cdemo1" finished-at="2025-02-22T13:19:21 BDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cdemo1 -->
-        <test-method signature="Linked()[pri:0, instance:projecttestng.bangla4@2ef3eef9]" started-at="2025-02-21T18:34:37 BDT" name="Linked" finished-at="2025-02-21T18:34:37 BDT" depends-on-methods="projecttestng.bangla4.cdemo1" duration-ms="0" status="PASS">
+        <test-method signature="Linked()[pri:0, instance:projecttestng.bangla4@61df66b6]" started-at="2025-02-22T13:19:21 BDT" name="Linked" finished-at="2025-02-22T13:19:21 BDT" depends-on-methods="projecttestng.bangla4.cdemo1" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Linked -->
+        <test-method signature="bdemo1(java.lang.String)[pri:3, instance:projecttestng.bangla4@61df66b6]" started-at="2025-02-22T13:19:21 BDT" name="bdemo1" finished-at="2025-02-22T13:19:21 BDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.bugresistance.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bdemo1 -->
       </class> <!-- projecttestng.bangla4 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- TestPakistan -->
+  </suite> <!-- Suite -->
 </testng-results>
